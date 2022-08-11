@@ -1,3 +1,4 @@
+#Modules a utilizar
 import tweepy
 from tweepy import Stream
 import configparser
@@ -13,7 +14,6 @@ config.read('config.ini')
 #keys generadas y extraidas desde config.ini
 api_key = config['twitter']['api_key']
 api_key_secret =  config['twitter']['api_key_secret']
-
 access_token = config['twitter']['access_token']
 access_token_secret = config['twitter']['access_token_secret']
 
